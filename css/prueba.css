@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Tajawal', sans-serif;
+  background-color:#f9f9f9e8;
+  font-weight: 400 ;
+}
+.bgStyle{
+  background-color: #4572d9;
+}
+#siteHeader{
+  background-color: #4572d9;
+}
+#siteHeader .miLogo{
+  display: block;
+  background: url(../media/milogo1.png) no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+img{
+  width: 300px;
+  border-bottom: solid 2px;
+}
+
+.titleColor{
+  font-style: normal;
+  font-size: 2rem;
+  color: #19c2e0;
+  background-color: #e3e5e6;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+#texto1{
+  padding-top: 30px;
+}
+
+#footer{
+  justify-content: center;
+  background: linear-gradient(to top, #6fbbd3, #F2FCFE);
+  min-height: 125px;
+}
+/*Maqueta del Sitio*/
+.grillaPadre{
+  display: grid;
+  grid-template-areas:
+  "nav"
+  "bienv"
+  "fot1" 
+  "fot2" 
+  "fot3"
+  "texto"
+  "footer";
+  justify-items: center;
+}
+@media all and (min-width: 768px){
+  .grillaPadre{
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "bienv"
+    "fot1" 
+    "fot2" 
+    "fot3"
+    "texto"
+    "footer";
+  }
+}
+.header{
+   grid-area: nav;
+   justify-self: stretch;
+}
+.bienvenida{
+   grid-area: bienv;
+   justify-self: stretch;
+}
+.fotos1{
+   grid-area: fot1;
+   justify-self: center;
+}
+.fotos2{
+   grid-area: fot2;
+   justify-self: center;
+}
+
+.fotos3{
+   grid-area: fot3;
+   justify-self: center;
+}
+
+.texto{
+   grid-area: texto;
+   justify-self: stretch;
+}
+.footer{
+  grid-area: footer;
+  justify-self: stretch;
+}
+@media all and (min-width: 992px){
+  .grillaPadre{
+        display: grid;
+        grid-template-areas:
+        "nav nav nav"
+        "bienv bienv bienv"
+        "fot1 fot2 fot3"
+        "texto texto texto"
+        "footer footer footer";
+  }
+   .fotos1{
+    grid-area: fot1;
+    justify-self: end;
+  }
+   .fotos2{
+    grid-area: fot2;
+    justify-self: center;
+  }
+   .fotos3{
+    grid-area: fot3;
+    justify-self: start;
+  }
+}
+
+.texto{
+    justify-self: stretch;
+  }
+.content{
+  max-width: 1080px;
+  margin: auto;
+  justify-content: center;
+}
+
+/*Header del Sitio*/
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../media/ocean.png);
+  background-size: cover;
+  width: 100%;
+  border-bottom: solid 2px black;
+  background-repeat: no-repeat;
+  min-height: 125px;
+  top: 0;
+}
+#header .logo{
+  margin-left: 35px;
+}
+#header .logo img{
+  width: 100px;
+}
+#header ul{
+  list-style: none;
+}
+#header li{
+  display: inline-block;
+  padding: 0 20px;
+}
+#header li a{
+  text-decoration: none;
+  font-size: 30px;
+  color: #f59105;
+  font-weight: 700;
+}
+#header li a{
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+
+@media all and (max-width: 768px){
+  #header ul{
+    display: none;
+  }
+}
+/*end header*/
+
+/*Bienvenida*/
+.content{
+  max-width: 1080px;
+  margin: auto;
+  justify-content: center;
+}
+.titleColor{
+  font-style: normal;
+  font-size: 2rem;
+  color: #19c2e0;
+  background-color: #e3e5e6;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+/*End Bienvenida*/
+
+/*Fotos*/
+.box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.miFoto{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+/*End Fotos*/
+
+/*Texto*/
+.contentBox{
+  max-width: 1080px;
+  margin: auto;
+}
+.txtBio{
+ text-align: center;
+}
+/*End Texto*/
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+.borde{
+  padding: 20px;
+}
+
+.tituloDos{
+  font-weight: 700;
+  font-size: 2rem;
+  color: #19c2e0;
+}
+ol li{ 
+  color: #4aed21; 
+  list-style-position: inside;
+}
+p{
+  color: green;
+  line-height: 1.5rem;
+  background-color:#f9f9f9e8;
+  padding top: 10px;
+  padding-bottom: 20px;
+}
+img{
+  width: 300px;
+  border-bottom: solid 2px;
+}
+.delfin:hover img{
+  transform: scale(1.1);
+  transition: all 500ms ease-in-out;
+}
+
+#footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top, #6fbbd3, #F2FCFE);
+  min-height: 125px;
+}
+
+/*Sobre mi*/
+.grillaPadre2{
+  display: grid;
+  grid-template-areas:
+  "nav"
+  "quien"
+  "txt"
+  "fot1"
+  "footer";
+  justify-items: center;
+}
+.header{
+   grid-area: nav;
+   justify-self: stretch;
+}
+.quienSoy{
+   grid-area: quien;
+   justify-self: stretch;
+}
+.txt{
+  grid-area: txt;
+  justify-self: end;
+}
+.miFoto{
+   grid-area: fot1;
+   justify-self: space-around;
+}
+.footer{
+  grid-area: footer;
+  justify-self: stretch;
+}
+
+/*END Sobre mi*/
+
+/*Servicios*/
+.grillaPadre3{
+  display: grid;
+  grid-template-areas:
+  "nav"
+  "serv"
+  "txt"
+  "servList"
+  "fota"
+  "footer";
+  justify-items: center;
+}
+.header{
+   grid-area: nav;
+   justify-self: stretch;
+}
+.servicios{
+   grid-area: serv;
+   justify-self: stretch;
+}
+.txtPres{
+  grid-area: txt;
+  justify-self: end;
+}
+.servicesList{
+  grid-area: servList;
+  justify-self: stretch;
+}
+.fotaPaz{
+   grid-area: fota;
+   justify-self: space-around;
+}
+.footer{
+  grid-area: footer;
+  justify-self: stretch;
+}
+.alignText{
+  text-align: center;
+}
+/*END Servicios*/
+
+/*Blog*/
+.grillaPadre4{
+  display: grid;
+  grid-template-areas:
+  "nav"
+  "her"
+  "videos"
+  "footer";
+  justify-items: center;
+}
+.header{
+   grid-area: nav;
+   justify-self: stretch;
+}
+.herramientas{
+   grid-area: her;
+   justify-self: stretch;
+}
+.videos{
+   grid-area: videos;
+   justify-self: space-between;
+}
+.footer{
+  grid-area: footer;
+  justify-self: stretch;
+}
+.align{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

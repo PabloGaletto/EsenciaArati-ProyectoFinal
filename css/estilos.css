@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap");
+body {
+  font-family: "Tajawal", sans-serif;
+  background-color: #f9f9f9e8;
+  font-weight: 400;
+  overflow-x: hidden; }
+
+.barra {
+  background-color: #4572d9; }
+
+.barra__miLogo {
+  display: block;
+  background: url(../media/milogo1.png) no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px; }
+
+.title {
+  margin-top: 66px; }
+
+.title__color {
+  font-style: normal;
+  font-size: 2rem;
+  color: #19c2e0;
+  background-color: #e3e5e6;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700; }
+
+.tittle__principal {
+  font-style: normal;
+  font-size: 2rem;
+  color: #19c2e0;
+  background-color: #e3e5e6;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  margin-top: 66px; }
+
+.tituloDos {
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #19c2e0;
+  text-align: center;
+  font-weight: 700; }
+
+.tituloTres {
+  font-style: italic;
+  font-size: 2.8rem;
+  color: #4572d9;
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+  margin: 15px; }
+
+.widthForm {
+  max-width: 720px; }
+
+.textForm {
+  color: #4572d9; }
+
+.delfin:hover img {
+  transform: scale(1.1);
+  transition: all 500ms ease-in-out; }
+
+.banner1 {
+  background-image: linear-gradient(to bottom, rgba(242, 252, 254, 0.52), rgba(111, 187, 211, 0.73)), url("../media/12.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+  justify-content: center; }
+
+.banner2 {
+  background-image: linear-gradient(to bottom, rgba(242, 252, 254, 0.52), rgba(111, 187, 211, 0.73)), url("../media/12.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+  justify-content: center; }
+
+@media all and (max-width: 768px) {
+  .banner2 {
+    background-image: linear-gradient(to bottom, rgba(242, 252, 254, 0.52), rgba(111, 187, 211, 0.73)), url("../media/baner540.jpg"); }
+  .tituloTres {
+    font-style: italic;
+    font-size: 1.8rem;
+    color: #4572d9;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    margin: 15px; } }
+
+.margin {
+  margin-top: 20px; }
+
+.font-weight-normal {
+  font-weight: 400; }
+
+.font-weight-medium {
+  font-weight: 500; }
+
+.font-weight-bold {
+  font-weight: 700; }
+
+.bienvenida__texto {
+  color: #05D0EA;
+  font-size: 1.5rem; }
+
+.bienvenida__texto--dark {
+  color: #03C2DA;
+  font-weight: 700; }
+
+.fotos__imagen {
+  width: 100%;
+  margin-bottom: 15px; }
+
+.fotoServicios {
+  width: 300px; }
+
+.slider {
+  max-width: 720px; }
+
+.texto-1 {
+  padding: 25px; }
+
+.texto-2 {
+  padding: 50px; }
+
+.texto-3 {
+  padding: 75px; }
+
+.texto2 {
+  color: #19c2e0;
+  padding-top: 30px; }
+
+.texto2__secundario {
+  color: #4572d9; }
+
+.texto2__secundario--dark {
+  font-weight: 700;
+  color: #4572d9; }
+
+.texto__contenido {
+  font-style: normal;
+  font-size: 1rem;
+  color: #05D0EA;
+  text-align: center;
+  letter-spacing: 1.5px; }
+
+.card__button {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: #4572d9;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  max-width: 150px;
+  margin-bottom: 20px; }
+
+.card__button2 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: #4572d9;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  max-width: 150px;
+  margin-bottom: 20px;
+  max-width: 250px;
+  margin-top: 66px; }
+
+.footer {
+  justify-content: center;
+  background: linear-gradient(to top, #6fbbd3, #F2FCFE);
+  min-height: 125px;
+  margin-top: 50px; }
+
+.footer__centrado {
+  text-align: center; }
+
+.footer__centrado--bold {
+  font-weight: 700; }
+
+.footer__centrado--italic {
+  font-style: italic; }
