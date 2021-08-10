@@ -171,6 +171,25 @@ width: 300px
   max-width: 250px;
   margin-top: 66px;
 }
+.bcButton{
+  background-color: $color-blue;
+}
+.bcServicios{
+  background-color: $color5-turquesa;
+}
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .footer{
   justify-content: center;
   background: linear-gradient(to top, #6fbbd3, #F2FCFE);
