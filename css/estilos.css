@@ -55,6 +55,13 @@ body {
   padding: 10px;
   margin: 15px; }
 
+.btn:focus {
+  border-color: #FFFFFF;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25); }
+
+.imagenServicios {
+  width: 120px; }
+
 .widthForm {
   max-width: 720px; }
 
@@ -171,6 +178,19 @@ body {
   margin-bottom: 20px;
   max-width: 250px;
   margin-top: 66px; }
+
+.card__button3 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: #4572d9;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  max-width: 150px;
+  margin-bottom: 20px;
+  max-width: 250px;
+  margin-top: 10px; }
 
 .bcButton {
   background-color: #4572d9; }

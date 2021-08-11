@@ -57,7 +57,13 @@ body{
   padding: 10px;
   margin: 15px
 }
-
+.btn:focus{
+  border-color: $color6-white;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+.imagenServicios{
+  width: 120px; 
+}
 .widthForm{
   max-width: 720px;
 }
@@ -170,6 +176,11 @@ width: 300px
   @include cardButton;
   max-width: 250px;
   margin-top: 66px;
+}
+.card__button3{
+  @include cardButton;
+  max-width: 250px;
+  margin-top: 10px;
 }
 .bcButton{
   background-color: $color-blue;
