@@ -37,7 +37,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-weight: 700;
-  margin-top: 66px; }
+  margin-top: 66px;
+  letter-spacing: 3px; }
 
 .tituloDos {
   font-style: normal;
@@ -228,3 +229,6 @@ body {
 
 .footer__centrado--italic {
   font-style: italic; }
+
+#headingOne > h2:nth-child(1) > button:nth-child(1), #headingTwo > h2:nth-child(1) > button:nth-child(1), #headingThree > h2:nth-child(1) > button:nth-child(1) {
+  text-decoration: none; }

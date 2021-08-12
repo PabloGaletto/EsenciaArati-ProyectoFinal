@@ -38,6 +38,7 @@ body{
 .tittle__principal{
   @include principalTitle;
   margin-top: 66px;
+  letter-spacing: 3px; 
 }
 
 .tituloDos{
@@ -218,4 +219,7 @@ width: 300px
 }
 .footer__centrado--italic{
   font-style: italic;
+}
+#headingOne > h2:nth-child(1) > button:nth-child(1), #headingTwo > h2:nth-child(1) > button:nth-child(1), #headingThree > h2:nth-child(1) > button:nth-child(1){
+  text-decoration: none;
 }
